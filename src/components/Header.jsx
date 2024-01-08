@@ -1,5 +1,5 @@
 import './Header.css'
-
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -7,9 +7,9 @@ function Header() {
     <>
       <div id='header'>
         <ul id='selections'>
-          <li className='select-option'><a href="">text</a></li>
-          <li className='select-option'><a href="">programs</a></li>
-          <li className='select-option'><a href="">contact</a></li>
+          <li className='select-option'><Link to="/blog">text</Link></li>
+          <li className='select-option'><Link to="/programs">programs</Link></li>
+          <li className='select-option'><Link to="/connect">contact</Link></li>
         </ul>
       </div>
     </>

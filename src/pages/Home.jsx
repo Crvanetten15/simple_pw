@@ -37,8 +37,8 @@ function Home() {
             <p>CLI built in go to handle multiple versions of Progress ABL.</p>
           </td>
           <td>
-            <a href="" className='link-head'>NPM Package</a>
-            <p>idk yet</p>
+            <a href="" className='link-head'>File Finder</a>
+            <p>OpenSource File Explorer Alternative</p>
           </td>
           <td>
             <a href="" className='link-head'>SSH Client w/ VS Code</a>
@@ -58,7 +58,10 @@ function Home() {
         </tr>
         <tr>
           <td></td>
-          <td></td>
+          <td>
+          <a href="" className='link-head'>b-simpl</a>
+            <p>grayscale VSC theme to keep the clutter of vs away.</p>
+          </td>
           <td>
             <a href="" className='link-head'>name</a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non deleniti a inventore pariatur </p>
@@ -75,7 +78,7 @@ function Home() {
       </p>
       <h3>Connect</h3>
       <p>
-        Reach me at __ or __.
+        Reach me at <a href="https://twitter.com/ettensoftware">@ettensoftware</a> or <a href="https://www.linkedin.com/in/crvanetten/">linkedin/connorvanetten</a>.
       </p>
 
     </div>

@@ -1,17 +1,29 @@
 import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home'
+import Blog from './pages/Blog'
+import Programs from './pages/Programs';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 import Footer from './components/Footer'
 import Header from './components/Header'
 
 function App() {
-
   return (
-    <>
-      <Header />
-      <Home />
-      <Footer />
-    </>
-  )
+    <Router>
+      <>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/programs" element={<Programs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </>
+    </Router>
+  );
 }
 
 export default App
