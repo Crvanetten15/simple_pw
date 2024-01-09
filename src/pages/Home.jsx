@@ -71,10 +71,10 @@ function Home() {
       <h3>Find me on</h3>
       <p>
 
-      <a href="">github</a> |
-      <a href="">youtube</a> |
-      <a href="">twitter</a> |
-      <a href="">discord</a> |
+      <a href="" className='bottom-links'><i className="fa fa-github"></i> github</a>
+      <a href="" className='bottom-links'><i className="fa fa-youtube"></i> youtube</a> 
+      <a href="" className='bottom-links'><i className="fa fa-twitter"></i>twitter</a> 
+      <a href="" className='bottom-links'><i className="fa fa-discord"></i> discord</a> 
       </p>
       <h3>Connect</h3>
       <p>

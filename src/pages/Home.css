@@ -4,6 +4,13 @@ blockquote {
   margin-bottom: 50px;
 }
 
+.bottom-links {
+  font-size: 1.1em;
+}
+
+.bottom-links:hover {
+  font-size: 1.5em;
+}
 
 #main-page {
   max-width: 1100px;
