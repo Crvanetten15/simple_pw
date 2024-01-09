@@ -14,7 +14,7 @@ function Home() {
         <br />-Edsger Dijkstra
         </blockquote>
       <p>
-        Hi, I am Connor, a <i>Software Developer</i>. I am on the evergoing pursuit to make ideas come to life through code. If you can think of it, I assure there is a path to it through modern technology, and I would like to aid you on that journey.
+        Hi, I am <b>Connor</b>, a <i>Software Developer</i>. I am on the evergoing pursuit to make ideas come to life through code. If you can think of it, I assure there is a path to it through modern technology, and I would like to aid you on that journey.
       </p>
       <p>
         Along side my development motives, I run a <a href="">simple blog</a>. If you are interested in the Cloud, the Web, coding in general or just what i think please navigate to the text tab above. 

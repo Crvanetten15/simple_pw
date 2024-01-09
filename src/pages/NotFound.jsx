@@ -1,5 +1,15 @@
+import { Link } from 'react-router-dom';
+
 function NotFound() {
-  return <div>So much empty...</div>;
+  return (
+    <div>
+      <div>
+
+      <Link to="/">cd . .</Link>
+      </div>
+    So much empty...
+    </div>
+  );
 }
 
 export default NotFound
