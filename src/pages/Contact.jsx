@@ -8,7 +8,7 @@ function Contact() {
     
       <div id="contact-page">
       <div>
-        <Link to="/">cd . .</Link>
+        <Link to="/" className='hover:text-emerald-300 text-3xl'>cd . .</Link>
       </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde quos vero atque. Hic nam a distinctio sint voluptatem! Voluptas odit nostrum beatae, rem deleniti distinctio quo nemo aperiam corporis?

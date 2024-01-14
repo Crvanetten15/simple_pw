@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom';
-
+import './not-found.css'
 function NotFound() {
   return (
-    <div>
+    <div id='not-found'>
       <div>
-
-      <Link to="/">cd . .</Link>
+      <Link to="/" className='hover:text-emerald-300 text-3xl'>cd . .</Link>
       </div>
-    So much empty...
+      So much empty...
     </div>
   );
 }

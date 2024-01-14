@@ -8,7 +8,7 @@ function Programs() {
     <>
       <div id='program-page'>
       <div>
-        <Link to="/">cd . .</Link>
+        <Link to="/" className='hover:text-emerald-300 text-3xl'>cd . .</Link>
       </div>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique in libero blanditiis sit! Iste, nisi. Commodi in sunt assumenda magni iure est rerum vitae impedit, at ratione dolore molestiae fuga.
