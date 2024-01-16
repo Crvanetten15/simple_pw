@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Test from './pages/Test'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/connect" element={<Contact />} />
+          <Route path="/Testing" element={<Test />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
