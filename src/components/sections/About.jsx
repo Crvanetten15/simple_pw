@@ -1,3 +1,5 @@
+import  headshot  from "../../assets/img/headshot.png"
+
 function About () {
 
   return (
@@ -5,22 +7,24 @@ function About () {
     <h1 className="text-6xl mb-12">
       Who am I?
     </h1>
-    <div className="font-light text-xl">
-    <p className="">
-    Simplicity is prerequisite for reliability.
--Edsger Dijkstra
-
-Hi, I am Connor, a Software Developer. I am on the evergoing pursuit to make ideas come to life through code. If you can think of it, I assure there is a path to it through modern technology, and I would like to aid you on that journey.
-
-
-Along side my development motives, I run a tech blog. If you are interested in the Cloud, the Web, coding in general or just what I think please navigate to the text tab above.
-
-
-Outside of programming, I enjoy powerlifting and hiking. These help me achieve a balance between my digital life and my physical life. If you happen to share these extended hobbies feel free to contact me regarding them as well.
-
-
-Enjoy some of my highlights below. If you would like to see more of my work, you can find my full projects list here.
+    <div className="font-normal text-xl">
+    <p className="pl-10 pr-10 lg:pl-50 lg:pr-50 md:pl-25 md:pr-25 sm:pl-10 sm:pr-10">
+    simply put. <br />
+    I create.
+    <br />
+    <br />
+    Hi, I am Connor, a Software Developer. I am on the evergoing pursuit to make ideas come to life through code. If you can think of it, I assure there is a path to it through modern technology, and I would like to aid you on that journey.
+    <br />
+    <br />
+    Along side my development motives, I run a tech blog. If you are interested in the Cloud, the Web, coding in general or just what I think please navigate to the text tab above.
+    Outside of programming, I enjoy powerlifting and hiking. These help me achieve a balance between my digital life and my physical life. If you happen to share these extended hobbies feel free to contact me regarding them as well.
+    <br />
+    <br />
+    Enjoy some of my highlights below. If you would like to see more of my work, you can find my full projects list here.
     </p>
+    </div>
+    <div className="flex justify-around bg-white rounded-full m-8">
+      <img src={ headshot } className="size-96" alt="Profile Picture" />
     </div>
   </div>
   )

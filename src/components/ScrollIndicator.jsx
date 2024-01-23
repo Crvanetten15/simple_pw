@@ -9,6 +9,7 @@ const ScrollIndicator = () => {
     const scrolled = (winScroll / height) * 100;
 
     setScrollProgress(scrolled);
+    console.log(scrolled)
   };
 
   useEffect(() => {
