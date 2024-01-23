@@ -1,8 +1,8 @@
 import './App.css'
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import NotFound from './pages/NotFound';
-import Footer from './components/Footer'
-import Header from './components/Header'
+// import Footer from './components/Footer'
+// import Header from './components/Header'
 import Home from './pages/Home';
 import ReturnTop from './components/ReturnTop';
 import ScrollIndicator from './components/ScrollIndicator';
