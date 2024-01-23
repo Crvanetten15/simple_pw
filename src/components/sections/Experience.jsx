@@ -1,4 +1,4 @@
-// import InfiniteSlider from "../slider/InfiniteSlider"
+// import InfiniteSlider from "../slider/InfiniteSlider" 
 
 function Experience ()
 {
