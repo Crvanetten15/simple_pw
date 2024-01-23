@@ -1,4 +1,4 @@
-import ProjectBox from "../projects/project_box";
+import ProjectBox from "../projects/ProjectBox";
 import headshot from '../../assets/img/headshot.png';
 
 const projects = [
