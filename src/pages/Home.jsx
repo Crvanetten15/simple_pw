@@ -65,7 +65,7 @@ Enjoy some of my highlights below. If you would like to see more of my work, you
           What I use to Create
         </h1>
         <p className="text-3xl">
-          As a software engineer the tools that I use are just that tools. I prefer to look and pick the correct language for the job and not force a pussle piece where it doesnt fit just because I am familiar with it.
+          As a software engineer the tools that I use are just that tools. I prefer to look and pick the correct language for the job and not force a puzzle piece where it doesnt fit just because I am familiar with it.
           <br />
           Learning is a constant in the space of software and a developer can become a creature of habit too easily.
           <br />
