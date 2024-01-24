@@ -9,7 +9,6 @@ const ScrollIndicator = () => {
     const scrolled = (winScroll / height) * 100;
 
     setScrollProgress(scrolled);
-    console.log(scrolled)
   };
 
   useEffect(() => {
@@ -19,8 +18,8 @@ const ScrollIndicator = () => {
   }, []);
 
   return (
-    <div className="fixed left-0 top-0 z-50 h-full">
-      <div className="bg-white w-2 h-full" style={{ height: `${scrollProgress}%` }}></div>
+    <div className="fixed top-0 left-0 z-50 w-full">
+      <div className="bg-light-blue h-2" style={{ width: `${scrollProgress}%` }}></div>
     </div>
   );
 };

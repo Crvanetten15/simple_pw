@@ -1,7 +1,7 @@
 function MainPage () {
 
   return (
-    <div className="flex flex-col sticky top-0 z-0 h-dvh justify-around animate-bg p-5">
+    <div className="flex flex-col h-dvh justify-around animate-bg p-5 sticky top-0 z-[-1]">
       <div className="flex justify-around text-white">
         <h1 className="lg:text-9xl md:text-9xl sm:text-4xl ease-in duration-300">
           I&apos;m Connor <br />

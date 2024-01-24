@@ -1,7 +1,7 @@
 function Experience () {
 
   return (
-    <div className="rounded-t-3xl flex text-center flex-col sticky top-0 z-1 mx-auto h-dvh w-10/12 text-dark bg-metal p-10">
+    <div className=" flex text-center flex-col mx-auto rounded-t-[100px] text-dark bg-grey p-10">
       <div>
         <h1 className="text-4xl">
           My Experience

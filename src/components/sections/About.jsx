@@ -3,7 +3,7 @@ import  headshot  from "../../assets/img/headshot.png"
 function About () {
 
   return (
-    <div className="rounded-t-3xl flex text-center flex-col sticky top-0 z-1 mx-auto h-dvh w-10/12 text-dark bg-white p-10">
+    <div className=" flex text-center flex-col z-1 rounded-t-[100px] mx-auto h-dvh sticky top-[-32px] z-[-1] text-dark bg-white p-10">
     <h1 className="text-6xl mb-12">
       Who am I?
     </h1>

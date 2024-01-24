@@ -3,7 +3,7 @@
 function TechStack () {
 
   return (
-    <div className="rounded-t-3xl flex text-center flex-col sticky top-0 z-1 mx-auto h-dvh w-10/12 text-dark bg-bermuda p-10">
+    <div className="flex rounded-t-[100px] text-center flex-col mx-auto text-dark bg-white p-10">
     <h1 className="text-6xl mb-12">
       My Tech Stack
     </h1>
