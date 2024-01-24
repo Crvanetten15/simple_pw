@@ -1,6 +1,6 @@
 function Experience() { return (
   <div
-    className="flex text-center flex-col mx-auto rounded-t-[100px] bg-grey p-10"
+    className="flex text-center flex-col mx-auto rounded-t-[100px] bg-grey p-10 z-[-1] h-dvh-plus-100"
   >
     <div>
       <h1 className="text-4xl">My Experience</h1>

@@ -4,17 +4,13 @@ import './App.css'
 // import Footer from './components/Footer'
 // import Header from './components/Header'
 import Home from './pages/Home';
-import ReturnTop from './components/ReturnTop';
 import ScrollIndicator from './components/scrolling/ScrollIndicator';
 
 function App() {
   return (
       <>
         <ScrollIndicator/>
-        {/* <Header /> */}
         <Home/>
-        {/* <Footer /> */}
-        <ReturnTop/>
       </>
   );
 }

@@ -1,0 +1,3 @@
+.h-dvh-plus-100 {
+  height: calc(var(--h-dvh, 100vh) + 100px); /* Adjust var(--h-dvh, 100vh) based on how h-dvh is defined */
+}
