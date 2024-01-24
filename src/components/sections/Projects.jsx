@@ -11,7 +11,7 @@ const projects = [
   },
   {
     "title": "ProGo",
-    "sub": '✦ Progress ABL CLI tool for Powershell',
+    "sub": '✦ Progress ABL CLI tool for Powershell built in GoLang',
     'image': prologo,
     'link' : 'https://github.com/Crvanetten15/progo'
   },
