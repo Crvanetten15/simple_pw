@@ -54,7 +54,7 @@ function Experience() { return (
           mentor, where we worked on 3 open-source projects. Each task centered
           around creating a command line utility for SAM template transformations.
           At our final delivery day we showcased each individual and displayed
-          "CFN-TRANSFORM", which was a PyPi package allowing the user to retrieve
+          &34;CFN-TRANSFORM&34;, which was a PyPi package allowing the user to retrieve
           a transformed template without AWS credentials.
         </p>
       </div>
