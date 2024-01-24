@@ -7,10 +7,6 @@ function MainPage () {
           I&apos;m Connor <br />
           Portfolio/24
         </h1>
-        <div className="m-12 lg:block md:hidden sm:hidden hidden">
-          <a href="#projects" className="rounded-lg bg-dark-accent px-8 py-4 mr-12 hover:bg-metal">Projects</a>
-          <a href="#" className="rounded-lg bg-dark-accent px-8 py-4 hover:bg-bubble-gum">Contact</a>
-        </div>
       </div>
       <div className="flex flex-row justify-around text-white">
         <div className="w-1/2">

@@ -5,7 +5,10 @@ function Experience() { return (
     <div>
       <h1 className="text-4xl">My Experience</h1>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 p-4 md:p-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 p-4 md:p-6
+    text-xl lg:text-2xl md:text-2xl sm:text-xl lg:px-48 md:px-24 sm:px-10
+    
+    ">
       {/* Software Engineer */}
       <div className="bg-gray-100 p-4 shadow-sm">
         <h1 className="text-xl md:text-2xl font-semibold">Software Engineer</h1>
@@ -40,7 +43,7 @@ function Experience() { return (
   
       {/* Cloud Engineering Intern */}
       <div className="bg-gray-100 p-4 shadow-sm">
-        <h1 className="text-xl md:text-2xl font-semibold">
+        <h1 className="text-xl md:text-2xl font-semibold my-12">
           Cloud Engineering Intern
         </h1>
         <p className="text-md mt-2">Trek10, inc.</p>
@@ -54,7 +57,7 @@ function Experience() { return (
           mentor, where we worked on 3 open-source projects. Each task centered
           around creating a command line utility for SAM template transformations.
           At our final delivery day we showcased each individual and displayed
-          &34;CFN-TRANSFORM&34;, which was a PyPi package allowing the user to retrieve
+          &apos;CFN-TRANSFORM&apos;, which was a PyPi package allowing the user to retrieve
           a transformed template without AWS credentials.
         </p>
       </div>

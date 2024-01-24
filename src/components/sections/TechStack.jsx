@@ -1,9 +1,9 @@
 import ContinuousScrollText from "../scrolling/ContinuousScrollText"
 
 function TechStack () {
-
-  return (
-    <div className="flex rounded-t-[100px] text-center justify-around flex-col z-[-1] mx-auto text-dark h-dvh-plus-100 bg-white p-10">
+// rounded-t-[100px]
+  return ( 
+    <div className="flex text-center justify-around flex-col z-[-1] mx-auto text-dark h-dvh-plus-100 bg-white p-10">
     <h1 className="text-6xl mb-12">
       My Tech Stack
     </h1>
