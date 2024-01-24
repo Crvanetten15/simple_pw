@@ -1,18 +1,19 @@
 import ProjectBox from "../projects/ProjectBox";
-import headshot from '../../assets/img/headshot.png';
+// import headshot from '../../assets/img/headshot.png';
+import prologo from '../../assets/img/progress_logo.png';
 
 const projects = [
   {
-    "title": "example 1",
-    "sub": 'a project type',
-    'image': headshot,
-    'link' : 'https://github.com/Crvanetten15'
+    "title": "ProVM",
+    "sub": '✦ Progress ABL version manager for Powershell built in GoLang',
+    'image': prologo,
+    'link' : 'https://github.com/Crvanetten15/provm'
   },
   {
-    "title": "example 1",
-    "sub": 'a project type',
-    'image': headshot,
-    'link' : 'https://github.com/Crvanetten15'
+    "title": "ProGo",
+    "sub": '✦ Progress ABL CLI tool for Powershell',
+    'image': prologo,
+    'link' : 'https://github.com/Crvanetten15/progo'
   },
 
 ];
@@ -20,7 +21,7 @@ const projects = [
 function Projects() {
   return (
     <div className="flex text-center flex-col mx-auto bg-black text-white p-10">
-      <h1 className="text-6xl mb-12" id="projects">
+      <h1 className="text-[5em] mb-[100px]" id="projects">
         Projects
       </h1>
       {projects.map((project, index) => (

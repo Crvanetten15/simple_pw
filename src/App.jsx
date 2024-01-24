@@ -5,7 +5,7 @@ import './App.css'
 // import Header from './components/Header'
 import Home from './pages/Home';
 import ReturnTop from './components/ReturnTop';
-import ScrollIndicator from './components/ScrollIndicator';
+import ScrollIndicator from './components/scrolling/ScrollIndicator';
 
 function App() {
   return (
